@@ -166,11 +166,11 @@ function Dashboard() {
       <Box sx={{ width: 1 }}>
         <Header />
         <GridCards />
-        <Box display={"flex"} justifyContent={"space-between"} px={5} mt={4}>
+        <Box display={"flex"} justifyContent={"center"} columnGap={3} px={5} mt={4}>
           <Transaction />
           <CreditCard />
         </Box>
-        <Box display={"flex"} justifyContent={"space-between"} px={5} mt={4} mb={4}>
+        <Box display={"flex"} justifyContent={"center"} columnGap={3} px={5} mt={4} mb={4}>
           <Debit />
           <Invoices />
         </Box>

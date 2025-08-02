@@ -107,8 +107,9 @@ function GridCards() {
               {language === "fa" ? item.title.fa : item.title.en}
             </Typography>
             <Typography variant="h4">
-              {language === "fa" ? "تومان" : "$"}
+              {language !== "fa" ? "$" : ""}
               {item.value}
+              {language === "fa" ? "تومان" : ""}
             </Typography>
           </Box>
         </Box>
