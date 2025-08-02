@@ -45,6 +45,7 @@ const Header = () => {
   return (
     <Box
       sx={{
+        width: 1,
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
