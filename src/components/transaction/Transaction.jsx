@@ -107,7 +107,7 @@ const Transaction = () => {
         display={"flex"}
         flexDirection={"column"}
         justifyContent={"space-between"}
-        py={1}
+        py={3}
         sx={{
           width: 1030,
           height: 285,
